@@ -1,0 +1,56 @@
+{
+  "name": "vr-art-gallery",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "aframe": "^0.9.0",
+    "aframe-animation-component": "^5.1.2",
+    "aframe-animation-timeline-component": "^1.6.0",
+    "aframe-extras": "^5.0.1",
+    "aframe-physics-system": "git://github.com/n5ro/aframe-physics-system",
+    "aframe-react": "^4.4.0",
+    "aframe-room-component": "^0.3.0",
+    "aframe-star-system-component": "^1.0.0",
+    "attr-accept": "^2.2.2",
+    "aws-sdk": "^2.1282.0",
+    "axios": "^1.0.0",
+    "bcryptjs": "2.4.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "jquery": "^3.3.1",
+    "massive": "^6.0.1",
+    "preact": "^8.4.2",
+    "preact-compat": "^3.18.4",
+    "prop-types": "^15.6.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-dropzone": "^8.0.3",
+    "react-redux": "^6.0.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.2",
+    "redux": "^4.0.1",
+    "uuid": "^7.0.3"
+  },
+  "alias": {
+    "react": "preact-compat",
+    "react-dom": "preact-compat"
+  },
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "main": "server/server.js",
+  "proxy": "http://localhost:5111",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
